@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E70185E52C0E1EEB005A1D99 /* BWT-Alpine-F1-Team-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E70185E32C0E1EEB005A1D99 /* BWT-Alpine-F1-Team-Info.plist */; };
+		E70185E62C0E1EEB005A1D99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E70185E42C0E1EEB005A1D99 /* GoogleService-Info.plist */; };
 		E79576AD2C09FC31001CD0C1 /* PostsSNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79576812C09FC31001CD0C1 /* PostsSNView.swift */; };
 		E79576AE2C09FC31001CD0C1 /* SocialNetworksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79576822C09FC31001CD0C1 /* SocialNetworksView.swift */; };
 		E79576AF2C09FC31001CD0C1 /* ListTeamSNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79576832C09FC31001CD0C1 /* ListTeamSNView.swift */; };
@@ -76,15 +78,17 @@
 		E79577162C09FFFF001CD0C1 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = E79577152C09FFFF001CD0C1 /* GoogleSignIn */; };
 		E79577182C09FFFF001CD0C1 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E79577172C09FFFF001CD0C1 /* GoogleSignInSwift */; };
 		E795771C2C0A0155001CD0C1 /* SocialNetworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E795771B2C0A0155001CD0C1 /* SocialNetworkViewModel.swift */; };
-		E795771E2C0A02C7001CD0C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E795771D2C0A02C7001CD0C1 /* GoogleService-Info.plist */; };
 		E79577212C0B6FD2001CD0C1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79577202C0B6FD2001CD0C1 /* Extensions.swift */; };
 		E79577232C0B704E001CD0C1 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79577222C0B704E001CD0C1 /* TeamView.swift */; };
 		E7B63BBA2B3CE2EF00DF128C /* Alpine_F1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B63BB92B3CE2EF00DF128C /* Alpine_F1App.swift */; };
 		E7B63BBE2B3CE2F000DF128C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B63BBD2B3CE2F000DF128C /* Assets.xcassets */; };
 		E7B63BC12B3CE2F000DF128C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B63BC02B3CE2F000DF128C /* Preview Assets.xcassets */; };
+		E7DC14652C0F6232007DA578 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DC14642C0F6232007DA578 /* IntroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E70185E32C0E1EEB005A1D99 /* BWT-Alpine-F1-Team-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BWT-Alpine-F1-Team-Info.plist"; sourceTree = "<group>"; };
+		E70185E42C0E1EEB005A1D99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E79576812C09FC31001CD0C1 /* PostsSNView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsSNView.swift; sourceTree = "<group>"; };
 		E79576822C09FC31001CD0C1 /* SocialNetworksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialNetworksView.swift; sourceTree = "<group>"; };
 		E79576832C09FC31001CD0C1 /* ListTeamSNView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTeamSNView.swift; sourceTree = "<group>"; };
@@ -123,15 +127,14 @@
 		E79576D42C09FD40001CD0C1 /* AlpineNewAlps-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlpineNewAlps-Regular.ttf"; sourceTree = "<group>"; };
 		E79576D52C09FD41001CD0C1 /* AlpineNewAlps-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlpineNewAlps-Semibold.ttf"; sourceTree = "<group>"; };
 		E79576D62C09FD41001CD0C1 /* AlpineNewAlps-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlpineNewAlps-Light.ttf"; sourceTree = "<group>"; };
-		E79576DA2C09FD91001CD0C1 /* BWT-Alpine-F1-Team-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BWT-Alpine-F1-Team-Info.plist"; sourceTree = "<group>"; };
 		E795771B2C0A0155001CD0C1 /* SocialNetworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkViewModel.swift; sourceTree = "<group>"; };
-		E795771D2C0A02C7001CD0C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E79577202C0B6FD2001CD0C1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E79577222C0B704E001CD0C1 /* TeamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
-		E7B63BB62B3CE2EF00DF128C /* BWT Alpine F1 Team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BWT Alpine F1 Team.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B63BB62B3CE2EF00DF128C /* BWT Alpine F1® Team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BWT Alpine F1® Team.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B63BB92B3CE2EF00DF128C /* Alpine_F1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alpine_F1App.swift; sourceTree = "<group>"; };
 		E7B63BBD2B3CE2F000DF128C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7B63BC02B3CE2F000DF128C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7DC14642C0F6232007DA578 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +188,7 @@
 				E79576952C09FC31001CD0C1 /* Menu */,
 				E79576802C09FC31001CD0C1 /* Social networks */,
 				E79576A62C09FC31001CD0C1 /* ContentView.swift */,
+				E7DC14642C0F6232007DA578 /* IntroView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -300,8 +304,8 @@
 		E7B63BAD2B3CE2EF00DF128C = {
 			isa = PBXGroup;
 			children = (
-				E795771D2C0A02C7001CD0C1 /* GoogleService-Info.plist */,
-				E79576DA2C09FD91001CD0C1 /* BWT-Alpine-F1-Team-Info.plist */,
+				E70185E32C0E1EEB005A1D99 /* BWT-Alpine-F1-Team-Info.plist */,
+				E70185E42C0E1EEB005A1D99 /* GoogleService-Info.plist */,
 				E7B63BB82B3CE2EF00DF128C /* Alpine F1 */,
 				E7B63BB72B3CE2EF00DF128C /* Products */,
 			);
@@ -310,7 +314,7 @@
 		E7B63BB72B3CE2EF00DF128C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E7B63BB62B3CE2EF00DF128C /* BWT Alpine F1 Team.app */,
+				E7B63BB62B3CE2EF00DF128C /* BWT Alpine F1® Team.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -343,9 +347,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E7B63BB52B3CE2EF00DF128C /* BWT Alpine F1 Team */ = {
+		E7B63BB52B3CE2EF00DF128C /* BWT Alpine F1® Team */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7B63BC42B3CE2F000DF128C /* Build configuration list for PBXNativeTarget "BWT Alpine F1 Team" */;
+			buildConfigurationList = E7B63BC42B3CE2F000DF128C /* Build configuration list for PBXNativeTarget "BWT Alpine F1® Team" */;
 			buildPhases = (
 				E7B63BB22B3CE2EF00DF128C /* Sources */,
 				E7B63BB32B3CE2EF00DF128C /* Frameworks */,
@@ -355,7 +359,7 @@
 			);
 			dependencies = (
 			);
-			name = "BWT Alpine F1 Team";
+			name = "BWT Alpine F1® Team";
 			packageProductDependencies = (
 				E79576DC2C09FF3B001CD0C1 /* FirebaseAnalytics */,
 				E79576DE2C09FF3B001CD0C1 /* FirebaseAnalyticsOnDeviceConversion */,
@@ -389,7 +393,7 @@
 				E79577172C09FFFF001CD0C1 /* GoogleSignInSwift */,
 			);
 			productName = "Alpine F1";
-			productReference = E7B63BB62B3CE2EF00DF128C /* BWT Alpine F1 Team.app */;
+			productReference = E7B63BB62B3CE2EF00DF128C /* BWT Alpine F1® Team.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -425,7 +429,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E7B63BB52B3CE2EF00DF128C /* BWT Alpine F1 Team */,
+				E7B63BB52B3CE2EF00DF128C /* BWT Alpine F1® Team */,
 			);
 		};
 /* End PBXProject section */
@@ -438,9 +442,10 @@
 				E79576D82C09FD41001CD0C1 /* AlpineNewAlps-Semibold.ttf in Resources */,
 				E7B63BC12B3CE2F000DF128C /* Preview Assets.xcassets in Resources */,
 				E79576D72C09FD41001CD0C1 /* AlpineNewAlps-Regular.ttf in Resources */,
+				E70185E52C0E1EEB005A1D99 /* BWT-Alpine-F1-Team-Info.plist in Resources */,
 				E79576D92C09FD41001CD0C1 /* AlpineNewAlps-Light.ttf in Resources */,
 				E7B63BBE2B3CE2F000DF128C /* Assets.xcassets in Resources */,
-				E795771E2C0A02C7001CD0C1 /* GoogleService-Info.plist in Resources */,
+				E70185E62C0E1EEB005A1D99 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +479,7 @@
 				E79576CE2C09FC31001CD0C1 /* FontsApp.swift in Sources */,
 				E79576BC2C09FC31001CD0C1 /* AllPartenairesView.swift in Sources */,
 				E79576B52C09FC31001CD0C1 /* SignUpView.swift in Sources */,
+				E7DC14652C0F6232007DA578 /* IntroView.swift in Sources */,
 				E79576B42C09FC31001CD0C1 /* SignInButtons.swift in Sources */,
 				E79576B32C09FC31001CD0C1 /* SliderSignView.swift in Sources */,
 				E79576C52C09FC31001CD0C1 /* Actuality.swift in Sources */,
@@ -627,6 +633,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BWT-Alpine-F1-Team-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BWT Alpine F1® Team";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -640,6 +648,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "FD.Renault.Alpine.Alpine-F1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -658,6 +669,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BWT-Alpine-F1-Team-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "BWT Alpine F1® Team";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -671,6 +684,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "FD.Renault.Alpine.Alpine-F1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -689,7 +705,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7B63BC42B3CE2F000DF128C /* Build configuration list for PBXNativeTarget "BWT Alpine F1 Team" */ = {
+		E7B63BC42B3CE2F000DF128C /* Build configuration list for PBXNativeTarget "BWT Alpine F1® Team" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E7B63BC52B3CE2F000DF128C /* Debug */,

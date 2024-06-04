@@ -27,8 +27,11 @@ struct Alpine_F1App: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(AuthViewModel())
+            ZStack {
+                ContentView()
+                IntroView()
+            }
+            .environmentObject(AuthViewModel())
         }
     }
     

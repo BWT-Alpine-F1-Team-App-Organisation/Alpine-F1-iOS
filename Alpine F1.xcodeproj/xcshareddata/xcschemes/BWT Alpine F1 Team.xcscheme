@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E7B63BB52B3CE2EF00DF128C"
-               BuildableName = "BWT Alpine F1 Team.app"
-               BlueprintName = "BWT Alpine F1 Team"
+               BuildableName = "BWT Alpine F1&#xae; Team.app"
+               BlueprintName = "BWT Alpine F1&#xae; Team"
                ReferencedContainer = "container:Alpine F1.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,15 +44,15 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E7B63BB52B3CE2EF00DF128C"
-            BuildableName = "BWT Alpine F1 Team.app"
-            BlueprintName = "BWT Alpine F1 Team"
+            BuildableName = "BWT Alpine F1&#xae; Team.app"
+            BlueprintName = "BWT Alpine F1&#xae; Team"
             ReferencedContainer = "container:Alpine F1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "URL_API"
-            value = "https://alpine-f1-api.vercel.app/"
+            value = "http://localhost:8389"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>
@@ -68,8 +68,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E7B63BB52B3CE2EF00DF128C"
-            BuildableName = "BWT Alpine F1 Team.app"
-            BlueprintName = "BWT Alpine F1 Team"
+            BuildableName = "BWT Alpine F1&#xae; Team.app"
+            BlueprintName = "BWT Alpine F1&#xae; Team"
             ReferencedContainer = "container:Alpine F1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
