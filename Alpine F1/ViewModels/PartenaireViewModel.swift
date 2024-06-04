@@ -30,7 +30,7 @@ class PartenaireViewModel: ObservableObject {
             state = .success(data: Dictionary(grouping: parts, by: { $0.type.name }))
         } catch {
             state = .error(error: error)
-            print("\(error) in fetch all actualities")
+            print("\(error) in fetch all partenaires")
         }
     }
 }
